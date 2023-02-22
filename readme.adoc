@@ -1,0 +1,22 @@
+= Minimal Hugo Theme
+
+In case you need a Hugo tutorial, see either of these:
+
+* https://gohugo.io/getting-started/quick-start/[Official quick-start from gohugo.io]
+* https://cloudcannon.com/community/learn/hugo-beginner-tutorial/[Basics explained at cloudcannon.com]
+* https://youtu.be/ZFL09qhKi5I[40 minutes long video from Luke Smith, full of examples]
+
+There are loads of more sophisticated https://themes.gohugo.io/themes/[themes].
+My favorites are:
+
+* https://themes.gohugo.io/themes/hugo-book/[Book - Hugo documentation theme as simple as plain book]
+* https://themes.gohugo.io/themes/hugo-theme-cactus-plus/[mini - A fast, minimalist and responsive hugo theme for bloggers.]
+* https://themes.gohugo.io/themes/reveal-hugo/[reveal-hugo - A Hugo theme for Reveal.js that makes authoring and customization a breeze. With it, you can turn any properly-formatted Hugo content into a HTML presentation.]
+* https://themes.gohugo.io/themes/keepit/[KeepIt - A minimal and responsive theme for Hugo.]
+* https://themes.gohugo.io/themes/hugo-black-and-light-theme/[Black & Light - A High contrast, text oriented, performant and Javascript-free theme for Hugo.]
+* https://themes.gohugo.io/themes/hugo-theme-pixyll/[pixyll - A simple, beautiful theme for Hugo.]
+* https://themes.gohugo.io/themes/hugo-story/[Hugo Story - A (modular, highly tweakable) responsive one-page theme for Hugo.]
+* https://themes.gohugo.io/themes/hugo-theme-winning/[Winning - A theme for creating a simple CV with pdf generation through node-html-pdf]
+* https://themes.gohugo.io/themes/hugo-theme-gruvbox/[Gruvbox - A retro-looking Hugo theme inspired by the gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes.]
+* https://themes.gohugo.io/themes/tella/[Tella - Simple, Light, Responsive]
+* https://github.com/LukeSmithxyz/lugo[Luke Smith's simple Hugo theme]

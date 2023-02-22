@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> {{ .Site.Title }} </title>
+    <link rel='stylesheet' type='text/css' href='/style.css'>
+  </head>
+  <body>
+    {{ partial "nav.html" }}
+    <h1> {{ .Page.Title }} </h1>
+    {{ .Content }}
+    {{ block "main" . }}
+    {{ end }}
+    <footer>
+      <!-- See: https://mertbakir.gitlab.io/hugo/tag-cloud-in-hugo/ -->
+      {{ with .Params.tags }}
+        {{ range $tag := (sort .) }}
+          {{ with $.Site.GetPage (printf "/%s/%s" "tags" $tag) }}
+            <a href="{{ .Permalink }}">#{{ $tag }}</a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </footer>
+  </body>
+</html>
